@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBarsChart container intergation test cases should have 4 bars, 3 buttons and 4 bar options after grab api data 1`] = `
+<div>
+  <div>
+    <h1>
+      Progress Bars Demo
+    </h1>
+    <div
+      class="container"
+      data-testid="progress-bar"
+    >
+      <p
+        data-testid="bar-number"
+      >
+        60%
+      </p>
+      <div
+        class="bar normal"
+        data-testid="bar-block"
+        style="width: 60%;"
+      />
+    </div>
+    <div
+      class="container"
+      data-testid="progress-bar"
+    >
+      <p
+        data-testid="bar-number"
+      >
+        43%
+      </p>
+      <div
+        class="bar normal"
+        data-testid="bar-block"
+        style="width: 43%;"
+      />
+    </div>
+    <div
+      class="container"
+      data-testid="progress-bar"
+    >
+      <p
+        data-testid="bar-number"
+      >
+        24%
+      </p>
+      <div
+        class="bar normal"
+        data-testid="bar-block"
+        style="width: 24%;"
+      />
+    </div>
+    <div
+      class="container"
+      data-testid="progress-bar"
+    >
+      <p
+        data-testid="bar-number"
+      >
+        33%
+      </p>
+      <div
+        class="bar normal"
+        data-testid="bar-block"
+        style="width: 33%;"
+      />
+    </div>
+    <section
+      class="row"
+    >
+      <div
+        class="col-md-5 col-sm-12 progress-options"
+      >
+        <select
+          class="custom-select custom-select-lg"
+          data-testid="bar-selection"
+        >
+          <option
+            value="0"
+          >
+            #Progress 1
+          </option>
+          <option
+            value="1"
+          >
+            #Progress 2
+          </option>
+          <option
+            value="2"
+          >
+            #Progress 3
+          </option>
+          <option
+            value="3"
+          >
+            #Progress 4
+          </option>
+        </select>
+      </div>
+      <div
+        class="col-md-7 col-sm-12"
+      >
+        <button
+          class="btn btn btn-lg btn-outline-dark"
+          data-testid="step-btn"
+          type="button"
+        >
+          -34
+        </button>
+        <button
+          class="btn btn btn-lg btn-outline-dark"
+          data-testid="step-btn"
+          type="button"
+        >
+          +7
+        </button>
+        <button
+          class="btn btn btn-lg btn-outline-dark"
+          data-testid="step-btn"
+          type="button"
+        >
+          +33
+        </button>
+      </div>
+    </section>
+  </div>
+</div>
+`;

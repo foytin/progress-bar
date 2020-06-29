@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Page component Error page render correctly 1`] = `
+<div>
+  <div
+    class="centered"
+    data-testid="error-page"
+  >
+    <span
+      aria-label="error"
+      class="emoji"
+      role="img"
+    >
+      😭
+    </span>
+    <p
+      class="title"
+    >
+      Ooooops!
+    </p>
+    <p
+      class="text"
+    >
+      Out of Service! Please try it later.
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,32 @@
+$bar-length: 4rem;
+
+.container {
+  margin: 1rem 0;
+  width: 100%;
+  height: $bar-length;
+  border: 1px solid #ddd;
+  position: relative;
+
+  p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $bar-length;
+    line-height: $bar-length;
+    text-align: center;
+  }
+
+  .bar {
+    height: $bar-length;
+    
+  }
+
+  .normal {
+    background-color: #B2D7E6;
+  }
+  
+  .alert {
+    background-color: salmon;
+  }
+}
