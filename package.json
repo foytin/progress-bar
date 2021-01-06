@@ -15,7 +15,7 @@
   "author": "wuyun117@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "classnames": "2.2.6",
     "normalize.css": "8.0.1",
     "prop-types": "15.7.2",
